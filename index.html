@@ -111,7 +111,9 @@ mark {
   font-size: .78rem; letter-spacing: .2em; text-transform: uppercase;
   color: var(--ink-soft); font-weight: 600; margin: 0;
 }
-.cover-title { font-size: clamp(4.2rem, 19vw, 7rem); margin: 0 0 1.6rem; }
+.cover-title { font-size: clamp(4.2rem, 19vw, 7rem); margin: 0; }
+.from { font-size: clamp(1.8rem, 7vw, 2.4rem); margin: 0 0 1.2rem; color: var(--ink-soft); }
+.sign { font-size: clamp(2.4rem, 9vw, 3.4rem); margin: .5em 0 0; color: var(--ink-soft); }
 
 .env { position: relative; width: min(78vw, 340px); aspect-ratio: 3 / 2; cursor: pointer; }
 .env .back { position: absolute; inset: 0; background: #F1D3E0; border-radius: 6px; box-shadow: 0 22px 40px -22px rgba(72,63,99,.55); }
@@ -239,6 +241,7 @@ mark {
     <div class="inner">
       <p class="eyebrow">Feliz cumpleaños</p>
       <h1 class="hand cover-title">Para Ceci</h1>
+      <p class="hand from">de Junior</p>
       <div class="env" id="env">
         <div class="back"></div>
         <div class="card hand" aria-hidden="true">Ceci,</div>
@@ -317,6 +320,7 @@ mark {
     <div class="inner">
       <p class="line" data-split>Que tengas un lindo cumpleaños y logres descansar la cabeza.</p>
       <p class="hand closing" data-split>Cuidate mucho.</p>
+      <p class="hand sign" data-split>Junior</p>
     </div>
   </section>
 
